@@ -1,7 +1,6 @@
 # Path to your oh-my-zsh installation.
 export ZSH="/home/lialka/.oh-my-zsh"
 export PATH=$HOME/bin:/usr/local/bin:$PATH
-export PATH=/usr/local/texlive/2022/bin/universal-darwin:$PATH
 
 # Config aliases
 alias zshconfig="vim ~/.zshrc"
@@ -55,3 +54,4 @@ export SSH_AUTH_SOCK=$(gpgconf --list-dirs agent-ssh-socket)
 export PYENV_ROOT="$HOME/.pyenv"
 command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init -)"
+
